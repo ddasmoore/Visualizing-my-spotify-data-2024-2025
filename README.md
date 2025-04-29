@@ -60,9 +60,9 @@ for my spotify data. I got my client ID and Client secret from the spotify devel
 loop through the track_uri in my dataset to extract artist and then genre information. 
 
 Troubleshooting: 
-1) When trying to run through the uri list to extract genre, I got an error message saying that there was a null value within track uri list. I realized that
-I had missed a row with mostly null values across several columns. I dropped that row because I didn't think it added / took anything away from the data overall.  
-2) Initally I grabbed all the track uri's from the data and tried to grab genre for each of them. But the code kept breaking and gave
+- When trying to run through the uri list to extract genre, I got an error message saying that there was a null value within track uri list. I realized that
+I had missed a row with mostly null values across several columns. I dropped that row because I didn't think it added / took anything away from the data overall.
+- Initally I grabbed all the track uri's from the data and tried to grab genre for each of them. But the code kept breaking and gave
 authorization related errors. Separately I also ran into a rate/request limit error. I suspected that looping through all 2502 rows of track uris might 
 be exceeding some limit. So I grabbed only the unique track uris to generate genre, reducing the list to 670. This approach worked and I was able to extract the genre
 for my songs. 
