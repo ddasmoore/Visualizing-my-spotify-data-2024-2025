@@ -20,7 +20,7 @@ listening to consistenly over the year versus favored only at some points during
 2) How much time did I spend listening to music this year? What are my peak listening hours?
 3) Which genres do I tend to listen to the most? 
 
-The detailed notebook of the project is [here].
+The detailed notebook of the project is [here](https://github.com/ddasmoore/Visualizing-my-spotify-data-2024-2025/blob/main/spotify.pdf).
 
 ## Executive-summary-of-insights
 1. Surprisingly I listened to my top song "Chaleya" **every single month** this part year (March 1,2024- February 28,2024)! I listened to it heavily early last year then cooled 
