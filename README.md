@@ -16,7 +16,7 @@ For this project, I wanted to create my own version of Spotify wrapped, with add
 I was interested in the following questions:
 1) In addition to my top songs of the year, I was also interested in learning 
 how often I listened to my top songs over the course of the year- for example, which songs have I been 
-listening to consistenly over the year versus favored only at some points during the year? 
+listening to consistently over the year versus favored only at some points during the year? 
 2) How much time did I spend listening to music this year? What are my peak listening hours?
 3) Which genres do I tend to listen to the most? 
 
@@ -35,7 +35,7 @@ off slightly for a few months then got into it again.
 I requested my data from Spotify and asked for the extended streaming history. When I received the data,
 I saw that Spotify had broken it down into year ranges somewhat randomly. I wanted to analyze my data from the past year (I am writing this in Mid April 2025).
 
-To extract the data from the past year I grabbed two files containing data from 2019-2024 and then from 2024-2025 and uploaded in to a Jupyter notebook. 
+To extract the data from the past year, I grabbed two files containing data from 2019-2024 and then from 2024-2025 and uploaded them in to a Jupyter notebook. 
 I changed 'ts' which contained datetime information to pandas datetime format. The data contained 23 columns.
 ![image](https://github.com/user-attachments/assets/6c69492e-a0c6-4fc0-9fe2-2e322ce6d71d)
 
@@ -73,7 +73,7 @@ I loaded both files into Tableau so I could visualize the data.
 ## Detailed-insights-and-visualizations
 
 1. Top songs by month
-I listened to my first top song every month in the last year, while the second song managed to be in the top list even though I discovered in Jan 2025!
+I listened to my first top song every month in the last year, while the second song managed to be in the top list even though I discovered it as recently as Jan 2025!
 In the middle of the list I have a couple of songs that I listened to early last year and then stopped for a few months then picked up back again.
 The last three songs I know are old favorites that I rediscovered in the last few months. It was cool to see when I had found new songs and rediscovere old favorites over the last year.
 
