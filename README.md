@@ -36,7 +36,7 @@ I requested my data from Spotify and asked for the extended streaming history. W
 I saw that Spotify had broken it down into year ranges somewhat randomly. I wanted to analyze my data from the past year (I am writing this in Mid April 2025).
 
 To extract the data from the past year I grabbed two files containing data from 2019-2024 and then from 2024-2025 and uploaded in to a Jupyter notebook. 
-I changed 'ts' which contained datetime information to pandas datetime format. The data contained 23 columns (insert screenshot)
+I changed 'ts' which contained datetime information to pandas datetime format. The data contained 23 columns.
 ![image](https://github.com/user-attachments/assets/6c69492e-a0c6-4fc0-9fe2-2e322ce6d71d)
 
 ## Tools-and-libraries
