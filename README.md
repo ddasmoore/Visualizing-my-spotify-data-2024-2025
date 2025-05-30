@@ -8,6 +8,7 @@
   *   [Tools and libraries](#Tools-and-libraries)
   *   [Data cleaning, transaformations and troubleshooting](#Data-cleaning-transformations-and-troubleshooting)
   *   [Data analysis and visualization](#Detailed-insights-and-visualizations)
+  *   [Additional fun analyses with MySQL using extended data](#Additional-fun-analyses-with-MySQL-using-extended-data)
    
 
 ## About the project 
@@ -20,7 +21,7 @@ listening to consistently over the year versus favored only at some points durin
 2) How much time did I spend listening to music this year? What are my peak listening hours?
 3) Which genres do I tend to listen to the most? 
 
-The detailed notebook of the project is [here](https://github.com/ddasmoore/Visualizing-my-spotify-data-2024-2025/blob/main/spotify.pdf).
+The detailed notebook of the project can be found above. 
 
 ## Executive-summary-of-insights
 1. Surprisingly I listened to my top song "Chaleya" **every single month** this part year (March 1,2024- February 28,2024)! I listened to it heavily early last year then cooled 
@@ -46,6 +47,8 @@ The data cleaning and transformation part of this project was done in Python usi
 The libraries used were Pandas and Spotipy.
 
 The visualization part of this project was done using Tableau public.
+
+The additional analyses with extended data (2020-2024 spotify data) was done using MySQL Workbench. 
 
 
 ## Data-cleaning-transformations-and-troubleshooting
@@ -93,12 +96,27 @@ I also had to look up "doo-wop". For exmaple, I don't think Mr. Sandman by the C
 genres that spotipy gave me so I wonder if some of the other genres would be a better fit. 
     ![image](https://github.com/user-attachments/assets/c5f4a561-008b-4ebc-9034-7dc301a2ecd0)
 
+## Additional-fun-analyses-with-MySQL-using-extended-data
 
-Other fun visusalizations
-1. I traveled to Spain, Portugal and India last year so it was cool to see that depicted in my spotify data.
-    ![image](https://github.com/user-attachments/assets/0fa1e65d-89a9-4a24-9edf-fc4d706e811c)
+After looking at my listening habits from the past year, I was curious about my listening habits going back a few years. Since I already had my data from Spotify, I went back to look between January 1, 2020 to December 31, 2024. I decided to use MySQl for additional this analysis to try something different. 
 
-2. My top song is also my most skipped song. I guess after listening to it every month in the last year I also get bored of it some days. 
+1. "Chaleya" which is my top song from 2024-2025 IS STILL my top song across all of 2020-2024! 
+   
+   ![image](https://github.com/user-attachments/assets/ec28a676-62fb-4c9b-be33-5907c96d1dc9)
 
-   ![image](https://github.com/user-attachments/assets/4cece294-4417-4ff0-9763-e9eb68c7c742)
+2. 2020 was my top year in terms of time spent listening to music, followed by 2024. 
+
+   ![image](https://github.com/user-attachments/assets/30872887-3bb6-4af5-aebd-38bf9ab0e9e3)
+
+3. None of my top 5 songs from 2020 made it to my top 10 list in 2024
+   
+   ![image](https://github.com/user-attachments/assets/83767de0-a5f0-47a1-b9c7-1a6ee547e855)
+
+5. Seeing my top songs from the last four years reminded me of songs that I need to revisit. 
+   
+   ![image](https://github.com/user-attachments/assets/d03267fa-2824-4027-bf4e-597225750cc0)
+
+
+
+
 
